@@ -3,5 +3,5 @@
 
 def key_for_min_value(name_hash)
   name_hash.collect { |key, value| value <=> value }
-  key.reverse
+  name_hash.reverse
 end
